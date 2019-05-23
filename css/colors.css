@@ -1,0 +1,39 @@
+.bg-white {
+  background-color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-grey {
+  background-color: #9C9990;
+}
+
+.text-grey {
+  color: #9C9990;
+}
+
+.bg-purple {
+  background-color: #4B3B47;
+}
+
+.text-purple {
+  color: #4B3B47;
+}
+
+.bg-rose {
+  background-color: #D65780;
+}
+
+.text-rose {
+  color: #D65780;
+}
+
+.bg-salmon {
+  background-color: #EE9480;
+}
+
+.text-salmon {
+  color: #EE9480;
+}

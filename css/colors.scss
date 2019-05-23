@@ -1,0 +1,17 @@
+$colors: (
+	white: #fff,
+	grey: #9C9990,
+	purple: #4B3B47,
+	rose: #D65780,
+	salmon: #EE9480,
+	
+);
+
+@each $color-name,$color in $colors{
+	.bg-#{$color-name}{
+		background-color: $color;
+	}
+	.text-#{$color-name}{
+		color: $color;
+	}
+}	

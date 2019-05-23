@@ -1,0 +1,57 @@
+.hero-image{
+	background: url('../images/ice1.jpg');
+	background-attachment: fixed;
+	height: 115vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	h1{
+  		font-weight: 300;
+  		text-shadow: 1px 1px 2px #000;
+  	}
+  	span{
+  		font-size: 22px;
+  	}
+}
+
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(9,1fr);
+	grid-template-areas:
+	  ". image image image . texto texto texto texto";
+	.img-box{
+		grid-area: image;
+	}
+	.text-box{
+		grid-area: texto;
+	}
+
+}
+
+.navbar{
+	width: 100%;
+	font-weight: 900;
+	text-shadow: 1px 1px 3px rgb(115, 100, 100);
+	margin-left: -35px;
+	ul{
+		list-style: none;		
+		li{
+			font-size: 1.8em;
+			display: inline-block;
+			padding: 5px 20px;
+			cursor: pointer;
+			transition: all 500ms;
+			&:hover{
+				background-color: #EE9480;
+			}
+
+		}
+	}
+	
+}
