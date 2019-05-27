@@ -11,12 +11,14 @@
 		%link{rel:"stylesheet", href:"css/colors.css"}
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Pacifico&display=swap" }
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Montserrat&display=swap" }
+		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Quicksand&display=swap"}	
 		%link{rel:"stylesheet", href:"https://use.fontawesome.com/releases/v5.8.2/css/all.css", integrity:"sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay",crossorigin:"anonymous"}
+
 		%title Sitio de Helados
 	%body
 		%header.hero-image.text-center.text-white
 			.text-large
-				%h1.no-margin.text-pacific Sitio de Helados
+				%h1.no-margin.text-pacific.text-weight--300.text-shadow-h1 Sitio de Helados
 				%span.text-montset
 					%i.far.fa-clock
 					Abierto
@@ -25,12 +27,16 @@
 					- navmenu.each do |item|
 						%li
 							%a{}= item						
-		.full-height.container.top-space
+		%section.container
 			.img-box
-				%figure
-					%img{src: "./images/ice2.jpg", height: '300px'}
-				%figurecaption
-					%p Helados
-			.text-box
-				%h2
-				%p Un delicia visual, nuestros productos son elaborados con los mejores ingredientes naturales, además cuidamos la presentación para hacer una exquisites ante tus ojos.
+				%img{src: "./images/ice2.jpg"}				
+			.text-box.text-qs.top-space.flex.middle
+				%h2.text-montset.padding-right--2p Sabores Únicos
+				%p.text-medium Un delicia visual, nuestros productos son elaborados con los mejores ingredientes naturales, además cuidamos la presentación para hacer una exquisites ante tus ojos.
+		%section.box-announcement.bg-salmon.text-white.flex.flex-center.tex-lmedium.width.flex-direction
+			%h2.text-pacific.text-weight--300 Elaborados artesanalmente
+			%span 
+				%i.fas.fa-chevron-down
+		.full-height.text-center
+			%h3.text-montset.text-medium Nuestros Sabores
+		%footer.full-height.bg-grey

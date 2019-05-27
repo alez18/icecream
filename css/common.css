@@ -2,37 +2,71 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
+
+.absolute {
+  position: absolute; }
+
+.box-announcement {
+  height: 350px; }
+
+.flex {
+  display: flex; }
+
+.flex-center {
+  align-items: center;
+  justify-content: center; }
+
+.flex-direction {
+  flex-direction: column; }
 
 .full-height {
-  height: 100%;
-}
+  height: 100%; }
+
+.middle {
+  align-items: center; }
 
 .no-margin {
-  margin: 0;
-}
+  margin: 0; }
 
 .no-padding {
-  padding: 0;
-}
+  padding: 0; }
+
+.text-shadow-h1 {
+  text-shadow: 1px 1px 2px #000; }
+
+.text-weight--300 {
+  font-weight: 300; }
 
 .text-center {
-  text-align: center;
-}
+  text-align: center; }
 
 .text-large {
-  font-size: 3.5em;
-}
+  font-size: 3.5em; }
+
+.tex-lmedium {
+  font-size: 2.5em; }
+
+.text-medium {
+  font-size: 1.2em; }
 
 .text-montset {
-  font-family: 'Montserrat', sans-serif;
-}
+  font-family: 'Montserrat', sans-serif; }
+
+.text-qs {
+  font-family: 'Quicksand', sans-serif; }
 
 .text-pacific {
-  font-family: 'Pacifico', cursive;
-}
+  font-family: 'Pacifico', cursive; }
 
 .top-space {
-  margin-top: 3em;
-}
+  margin-top: 3em; }
+
+.padding-right--2p {
+  padding-right: 2em; }
+
+.relative {
+  position: relative; }
+
+.width {
+  width: 100%; }
