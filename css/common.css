@@ -7,6 +7,9 @@ body, html {
 .absolute {
   position: absolute; }
 
+.border-radius {
+  border-radius: 50%; }
+
 .box-announcement {
   height: 350px; }
 
@@ -26,11 +29,20 @@ body, html {
 .middle {
   align-items: center; }
 
+.mt-2 {
+  margin-top: 2em; }
+
 .no-margin {
   margin: 0; }
 
 .no-padding {
   padding: 0; }
+
+.text-s15 {
+  font-size: 1.5em; }
+
+.text-s20 {
+  font-size: 2.0em; }
 
 .text-shadow-h1 {
   text-shadow: 1px 1px 2px #000; }

@@ -35,8 +35,27 @@
 	.text-box{
 		grid-area: texto;
 	}
-
 }
+
+.circle-box{
+	height: 150px;
+	width: 150px;
+	margin: auto;
+}
+.row{
+	display: grid;
+	grid-template-columns: repeat(7,1fr);
+	.box1{
+		grid-column:2;
+	}
+	.box2{
+		grid-column: 4;
+	}
+	.box3{
+		grid-column: 6;
+	}
+}
+
 
 .navbar{
 	width: 100%;
@@ -44,7 +63,7 @@
 	text-shadow: 1px 1px 3px rgb(115, 100, 100);
 	margin-left: -35px;
 	ul{
-		list-style: none;		
+		list-style: none;
 		li{
 			font-size: 1.8em;
 			display: inline-block;
@@ -57,6 +76,5 @@
 
 		}
 	}
-	
-}
 
+}

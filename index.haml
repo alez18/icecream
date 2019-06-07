@@ -11,7 +11,7 @@
 		%link{rel:"stylesheet", href:"css/colors.css"}
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Pacifico&display=swap" }
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Montserrat&display=swap" }
-		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Quicksand&display=swap"}	
+		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Quicksand&display=swap"}
 		%link{rel:"stylesheet", href:"https://use.fontawesome.com/releases/v5.8.2/css/all.css", integrity:"sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay",crossorigin:"anonymous"}
 
 		%title Sitio de Helados
@@ -26,17 +26,46 @@
 				%ul
 					- navmenu.each do |item|
 						%li
-							%a{}= item						
+							%a{}= item
 		%section.container
 			.img-box
-				%img{src: "./images/ice2.jpg"}				
+				%img{src: "images/ice2.jpg"}
 			.text-box.text-qs.top-space.flex.middle
 				%h2.text-montset.padding-right--2p Sabores Únicos
 				%p.text-medium Un delicia visual, nuestros productos son elaborados con los mejores ingredientes naturales, además cuidamos la presentación para hacer una exquisites ante tus ojos.
 		%section.box-announcement.bg-salmon.text-white.flex.flex-center.tex-lmedium.width.flex-direction
 			%h2.text-pacific.text-weight--300 Elaborados artesanalmente
-			%span 
+			%span
 				%i.fas.fa-chevron-down
-		.full-height.text-center
-			%h3.text-montset.text-medium Nuestros Sabores
-		%footer.full-height.bg-grey
+		.text-center
+			%h3.text-montset.text-s20.text-rose Nuestros Sabores
+			.row.text-qs.text-rose
+				.box1
+					%h3.text-montset.text-s15 Flavor One
+					.border-radius.circle-box{style:'background-image:url(images/ice3.jpg); background-size:cover; background-position:center'}
+					%p Prueba nuestros sabores únicos creados con ingredientes de las más alta calidad
+				.box2
+					%h3.text-s15 Flavor Two
+					.border-radius.border-radius.circle-box{style:'background-image:url(images/ice4.jpg); background-size:cover; background-position:center'}
+					%p Prueba nuestros sabores únicos creados con ingredientes de las más alta calidad
+				.box3
+					%h3.text-s15	Flavor Three
+					.border-radius.border-radius.circle-box{style:'background-image:url(images/ice5.jpg); background-size:cover; background-position:center'}
+					%p Prueba nuestros sabores únicos creados con ingredientes de las más alta calidad
+			.row.text-qs.text-rose
+				.box1
+					%h3.text-montset.text-s15 Flavor One
+					.border-radius.circle-box{style:'background-image:url(images/ice3.jpg); background-size:cover; background-position:center'}
+					%p Prueba nuestros sabores únicos creados con ingredientes de las más alta calidad
+				.box2
+					%h3.text-s15 Flavor Two
+					.border-radius.border-radius.circle-box{style:'background-image:url(images/ice4.jpg); background-size:cover; background-position:center'}
+					%p Prueba nuestros sabores únicos creados con ingredientes de las más alta calidad
+				.box3
+					%h3.text-s15	Flavor Three
+					.border-radius.border-radius.circle-box{style:'background-image:url(images/ice5.jpg); background-size:cover; background-position:center'}
+					%p Prueba nuestros sabores únicos creados con ingredientes de las más alta calidad
+		%footer.full-height.bg-grey.text-montset.mt-2
+			%h3.text-s20.no-margin.text-white Nos encontramos en:
+			%p Horarios
+			%p redes sociales
